@@ -1,0 +1,43 @@
+<local:MyCard Title="欢迎" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="亲爱的玩家，感谢你游玩Puremilk生存服务器！" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="本服务器开启时间：早8点半至晚12点" />
+        <local:MyHint Text="本 PCL2 主页文件托管于 GitHub Pages，如果你愿意维护也可以来编写！" IsWarn="False"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开存储库" EventType="打开网页" EventData="https://github.com/Big-Cake-jpg/PureMilk-PCL2MainPage" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="服务器公告 | 8.17" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                   Text="四周目今日完结，五周目将于20号开放白名单审核并在25号开始新的周目——五周目" />
+		<TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                   Text="五周目开启以后，玩家将只允许使用服务器提供的客户端。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                   Text="如果你在四周目的时候拥有白名单，那么五周目的时候无需再次提交申请" />
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                   Text="五周目的时候老玩家的奶币将会保留，而称号会清空（称号在五周目将由买断制改为月付）" />
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                   Text="五周目将是奶服最后一个周目，如果没有巨大的意外将不会重置存档、开启新周目" />
+        <TextBlock TextWrapping="Wrap" Margin="0,6,0,0"
+                   Text="服务器将始终保持玩法更新以及新大陆的添加（理解为新世界从而避免某大陆的过度开发）" />
+   </StackPanel>
+</local:MyCard>
+<local:MyCard Title="你可能需要的" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="打开牛奶的B站空间" EventType="打开网页" EventData="https://space.bilibili.com/189841470/" />
+            <local:MyButton Margin="0,0,10,0" Width="135" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="服务器准则" EventType="打开网页" EventData="https://xtsgames.top/puremilk/rules/" />
+            <local:MyButton Margin="0,0,10,0" Width="135" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="查询白名单" EventType="打开网页" EventData="https://xtsgames.top/puremilk/playerslist/" />
+            <local:MyButton Margin="0,0,10,0" Width="135" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="服务器官网" EventType="打开网页" EventData="https://xtsgames.top/puremilk" />
+        </StackPanel>
+	</StackPanel>
+</local:MyCard>
